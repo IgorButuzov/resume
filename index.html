@@ -32,7 +32,7 @@
             <ol class="projects_list">
                 <li class="project_item">
                     <span class="project">
-                        <a href="https://sergeyshturma.github.io/project-icecream-7up/" class="project_link">https://sergeyshturma.github.io/project-icecream-7up/</a>
+                        <a target="_blank" href="https://sergeyshturma.github.io/project-icecream-7up/" class="project_link">https://sergeyshturma.github.io/project-icecream-7up/</a>
                     
                     <span class="project_bracket">[</span> HTML,CSS, Web-site for Icecream company, command project <span class="project_bracket">]</span>
                     </span>
@@ -40,7 +40,7 @@
                 </li>
                 <li class="project_item">
                     <span class="project">
-                    <a href="https://igorbutuzov.github.io/WebStudio/index.html" class="project_link">https://igorbutuzov.github.io/WebStudio/index.html</a>
+                    <a target="_blank" href="https://igorbutuzov.github.io/WebStudio/index.html" class="project_link">https://igorbutuzov.github.io/WebStudio/index.html</a>
                     
                     <span class="project_bracket">[</span> HTML,CSS, Web-site for IT company <span class="project_bracket">]</span>
                 </span>
@@ -105,6 +105,9 @@
     <!--Sidebar-->
     <aside class="sidebar">
         <img src="img/1673696609905.jpg" alt="user photo" class="photo">
+        <!--About me-->  
+        <button type="button" class="button" data-modal-open>About me</button>
+        <!--About me-->
         <!--Tech skills-->
         <div class="tech_skills">
             <h3 class="sidebar_title">Tech Skills</h3>
@@ -147,7 +150,7 @@
                     </p>
                     <ul class="mylink-items">
                         <li>
-                            <a class="mylink" href="https://github.com/IgorButuzov?tab=repositories">
+                            <a class="mylink" target="_blank" href="https://github.com/IgorButuzov?tab=repositories">
                                 <svg class="mylink-items__icon">
                                     <use href="./img/symbol-defs.svg#icon-github">
                                     </use>
@@ -155,7 +158,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="mylink" href="https://www.facebook.com/profile.php?id=100009674070376">
+                            <a class="mylink" target="_blank" href="https://www.facebook.com/profile.php?id=100009674070376">
                                 <svg class="mylink-items__icon">
                                     <use href="./img/symbol-defs.svg#icon-facebook">
                                     </use>
@@ -163,7 +166,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="mylink" href="https://www.linkedin.com/in/igor-butuzov-7a0305246/">
+                            <a class="mylink" target="_blank" href="https://www.linkedin.com/in/igor-butuzov-7a0305246/">
                                 <svg class="mylink-items__icon">
                                     <use href="./img/symbol-defs.svg#icon-linkedin">
                                     </use>
@@ -171,7 +174,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="mylink" href="https://www.instagram.com/">
+                            <a class="mylink" target="_blank" href="https://www.instagram.com/">
                                 <svg class="mylink-items__icon">
                                     <use href="./img/symbol-defs.svg#icon-instagram">
                                     </use>
@@ -182,9 +185,26 @@
                 </div>
             </div>
     </aside>
-  
- </div>   
+ </div> 
+ 
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <p class="modaltext">Hi, I'm a Full Stack developer from Ukraine. 
+        I studied at an IT school and successfully completed a
+        web developer course. Now I am excited to start my career in IT. 
+        I'll be happy to work in your company, get commercial work experience
+        and become a quality specialist to raise the rating of your company.
+        </p>            
+        <button type="button" class="closebutton" data-modal-close>
+        <svg class="closebutton-icon">
+            <use href="./img/symbol-defs.svg#icon-close">
+            </use>
+        </svg>
+        </button>
+    </div>
+</div>
 
+<script src="./modal.js"></script>
 </body>
 </html>
 
