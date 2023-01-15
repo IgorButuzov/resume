@@ -361,7 +361,8 @@ margin-left: 20px;
     transform: translate(-50%, -50%) scale(1);
     padding: 40px;
     max-width: 528px;
-    height: 581px;
+    height: 70%;
+    overflow: scroll;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -442,12 +443,7 @@ margin-left: 20px;
         .main_content {
     width: 100%;
         }
-        .modal{
-            height: 70%;
-            overflow: scroll;
-            
-        }
- .modaltext {
+    .modaltext {
      font-size: 14px;
  }
 }
