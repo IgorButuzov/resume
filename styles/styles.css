@@ -15,7 +15,7 @@ h1,h2,h3,h4{
     justify-content: space-between;
     flex-direction: row;
     background-color: #d2d6da;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     
 }
@@ -25,6 +25,7 @@ h1,h2,h3,h4{
     position: relative;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 20px 28px;
+    width: 100%;
 }
 
 
@@ -186,10 +187,7 @@ h1,h2,h3,h4{
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-}
-
-.project_link{
-    margin-left: 10px;
+    
 }
 
 .project_bracket {
@@ -209,14 +207,14 @@ h1,h2,h3,h4{
     padding-top: 0px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    width: 370px;
+    width: 320px;
 }
 
 .photo{
     display: block;
     width: 300px;
     border-radius: 50%;
-    margin: 10px auto;
+    margin: 10px;
     
 }
 
